@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{475099d5-83bc-490b-b173-bc0bf620675b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3bc66a85-0644-4445-b6c0-8705cc688db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{b6e4b4ed-32f8-49d9-956c-781506213ff7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\dxstdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DXUT.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DXUTenum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DXUTgui.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DXUTmisc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DXUTRes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DXUTSettingsDlg.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientMesh.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AllocateHierarchy.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMesh.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MathDefines.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\dxstdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DXUT.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DXUTenum.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DXUTgui.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DXUTmisc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DXUTRes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DXUTSettingsDlg.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiAnimMesh.cpp" />
+    <ClCompile Include="AllocateHierarchy.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientMesh.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMesh.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
